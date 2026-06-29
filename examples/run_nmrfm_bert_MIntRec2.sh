@@ -17,6 +17,6 @@ do
         --audio_feats_path 'audio_feats.pkl' \
         --text_backbone 'bert-large-uncased' \
         --config_file_name 'nmfir_bert_MIntRec2' \
-        --results_file_name 'nmfir_bert_MIntRec2_511.csv'
+        --results_file_name 'nmrfm_bert_MIntRec2_511.csv'
     done
 done
