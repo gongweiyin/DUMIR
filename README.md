@@ -10,7 +10,7 @@ In real-world multimodal interactions, humans infer intents by jointly consideri
 
 The overview model architecture:
 
-![DUMIR architecture](Figs/dumir.png)
+![DUMIR architecture](https://cdn.jsdelivr.net/gh/gongweiyin/DUMIR@main/Figs/dumir.png)
 
 Figure 2: Overall architecture of the proposed DUMIR framework, including the Uncertainty-Aware Gating
 Module (UAGM), the Hierarchical Cross-Modal Interaction Module (HCMI), and the multi-task optimization
