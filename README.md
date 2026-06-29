@@ -2,11 +2,11 @@
 
 ---
 
-## Introduction
+## 1. Introduction
 
 In real-world multimodal interactions, humans infer intents by jointly considering textual semantics, vocal expressions, and visual behaviors. However, most existing multimodal intent recognition methods overlook the fact that the reliability of non-textual modalities may vary significantly across samples and typically employ fixed fusion strategies, making them susceptible to noisy or unreliable signals. Furthermore, current methods remain highly dependent on textual semantics. To address these challenges, we propose DUMIR, which dynamically models modality reliability and adaptively calibrates modality contributions for robust multimodal intent recognition.
 
-## Overall Architecture
+## 2. Overall Architecture
 
 The overview model architecture:
 
@@ -16,7 +16,7 @@ Figure 2: Overall architecture of the proposed DUMIR framework, including the Un
 Module (UAGM), the Hierarchical Cross-Modal Interaction Module (HCMI), and the multi-task optimization
 strategy.
 
-## Quick start
+## 3. Quick start
 
 1. Use anaconda to create Python (version >=3.6) environment
 
@@ -52,3 +52,9 @@ sh examples/run_dumir_bert_MIntRec.sh
 ```
 sh examples/run_dumir_bert_MIntRec2.sh
 ```
+
+## 4. Acknowledgments
+
+Some of the codes in this repo are adapted from [MIntRec](https://github.com/thuiar/MIntRec/tree/main), [EMRFM](https://github.com/xuejianhuang/EMRFM), [TCL-MAP](https://github.com/thuiar/TCL-MAP/tree/main), [MVCL-DAF](https://github.com/Freyrlake/MVCL-DAF) and we are greatly thankful.
+
+If you have any questions, please open issues and illustrate your problems as detailed as possible.
